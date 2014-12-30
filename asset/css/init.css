@@ -1,0 +1,54 @@
+/** 
+ * Init stylesheet
+ *
+ * @author
+ */
+
+ /** Init basic stylesheet */
+ html, body, form, fieldset {
+  margin: 0; 
+  padding: 0; 
+  font: 14px/16px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif; 
+  color: #777;
+} 
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, input, textarea, p, blockquote, th, td { 
+  margin:0;
+  padding:0;
+} 
+ol, ul, li {list-style-type: none;} 
+body {background: #fff;}
+form label, a {cursor: pointer;} 
+fieldset, img {border: none;}
+input, textarea, select {outline: none;}
+textarea {resize: none}
+input {
+  background: #fff; 
+  color: #333; 
+  font-size: 12px;
+  line-height: 12px; 
+  line-height: 24px\9; /** For IE */
+}
+a, a:link, a:visited, a:hover, a:active {
+  color: #777;
+  text-decoration: none;
+}
+a:focus, a:hover {
+  background: none;
+  color: #69f; /* RGB: 102,153,255 */
+  cursor: pointer;
+}
+
+
+/** Header stylesheet */
+header {padding: 10px 0;}
+#logo a {
+  width: 107px;
+  height: 93px;
+  margin:0;
+  padding: 0;
+  background: url("../img/logo.png") no-repeat 0 0;
+  display: block;
+}
+
+/** Footer stylesheet */
+footer {}
