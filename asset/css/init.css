@@ -40,15 +40,116 @@ a:focus, a:hover {
 
 
 /** Header stylesheet */
-header {padding: 10px 0;}
+header {
+  padding: 10px 0;
+  background-color: #f3f0e8;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset;
+  -ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* IE 9 */
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Firefox 4 */
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Safari 和 Chrome */
+  -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Opera */
+}
 #logo a {
   width: 107px;
   height: 93px;
-  margin:0;
+  margin:0 auto;
   padding: 0;
   background: url("../img/logo.png") no-repeat 0 0;
   display: block;
 }
+nav#nav {
+  margin-top: 20px;
+  background: none;
+  border: 0;
+  font-size: 18px;
+  box-shadow: none;
+  -ms-box-shadow: none; /* IE 9 */
+  -moz-box-shadow: none; /* Firefox 4 */
+  -webkit-box-shadow: none; /* Safari 和 Chrome */
+  -o-box-shadow: none; /* Opera */
+}
+#main-nav-menu .nav > li > a {
+  border-bottom: 2px solid #f3f0e8;
+  color: #195f8e;
+}
+#main-nav-menu .nav > li.open > a {
+  box-shadow: none;
+  -ms-box-shadow: none; /* IE 9 */
+  -moz-box-shadow: none; /* Firefox 4 */
+  -webkit-box-shadow: none; /* Safari 和 Chrome */
+  -o-box-shadow: none; /* Opera */
+}
+#main-nav-menu .nav > li.open > a, #main-nav-menu .nav > li > a:focus, #main-nav-menu .nav > li > a:hover {
+  border-bottom: 2px solid #888276;
+  background: none;
+}
+#main-nav-menu .dropdown-menu {background-color: #e3e3e3;}
+#main-nav-menu .dropdown-menu a {
+  padding: 8px 16px;
+  font-size: 18px;
+  color: #195f8e;
+}
+#main-nav-menu .dropdown-menu span.contact-tel {
+  padding: 8px 16px;
+  display: inline-block;block;
+}
+#main-nav-meun .dropdown-menu a {
+  transition: color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s; /* IE 9 */
+  -moz-transition: color 450ms ease-in-out 0s; /* Firefox 4 */
+  -webkit-transition: color 450ms ease-in-out 0s; /* Safari 和 Chrome */
+  -o-transition: color 450ms ease-in-out 0s; /* Opera */
+}
+#main-nav-menu .dropdown-menu a:hover, #main-nav-menu .dropdown-menu a:focus {
+  background: none;
+  color: #000;
+  transition: color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s; /* IE 9 */
+  -moz-transition: color 450ms ease-in-out 0s; /* Firefox 4 */
+  -webkit-transition: color 450ms ease-in-out 0s; /* Safari 和 Chrome */
+  -o-transition: color 450ms ease-in-out 0s; /* Opera */
+}
+
+/*#container {margin: 10px auto;}*/
 
 /** Footer stylesheet */
-footer {}
+footer {
+  padding-top: 20px;
+  background-color: #f3f0e8;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset;
+  -ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* IE 9 */
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Firefox 4 */
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Safari 和 Chrome */
+  -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Opera */
+}
+footer .footer-content {padding: 20px 0;}
+footer .footer-content h4 {
+  margin-bottom: 14px;
+  color: #878276;
+}
+footer .footer-content li {margin-bottom: 8px;}
+footer .footer-content a {color: #195f8e;}
+footer .footer-content .social-profiles a {
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  padding: 4px;
+  background-color: #195f8e;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border-radius: 50%;
+  -ms-border-radius: 50%; /* IE 9 */
+  -moz-border-radius: 50%; /* Firefox 4 */
+  -webkit-border-radius: 50%; /* Safari 和 Chrome */
+  -o-border-radius: 50%; /* Opera */
+}
+footer .footer-content .social-profiles div.tooltip[role="tooltip"] .tooltip-inner {background-color: #195f8e;}
+footer .footer-content .social-profiles div.tooltip.top[role="tooltip"] .tooltip-arrow {border-top-color: #195f8e;}
+footer .copyright {
+  padding: 10px 0;
+  background-color: #474747;
+  text-align: center;
+}
