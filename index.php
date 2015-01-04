@@ -96,12 +96,14 @@
 
     <!-- Content -->
     <div class="content">
-      <section class="welcome">
-      	<h3>Homepage</h3>
-      	<p>Maldives Princess is a 147-feet liveaboard traversing the crystalline waters of the Maldives. The boat accommodates 9 State Cabins and 2 Ocean View Suite.</p>
-        <p>All rooms have their own A/C, flat screen TV, small refridgerators, ensuite bathrooms and nice and roomy. Besides the suite with it’s king sized bed, the other rooms either have 2 twins or 1 queen bed. The spacious sundeck has a fresh water Jacuzzi for guests to relax and chill out…</p>
-        <p>Maldives – A diver’s paradise. The crystal clear water surrounding Maldives offers very good visibility, making Maldives one of the top diving destinations in the world. The presence of rare species as well as commonly found marine life are another major reason for the popularity of Maldives as a diving destination. <a class="cabin-view" href="http://maldivesprincess.com/gallery/cabin-view/" title="Cabin View">Click here to view our Gallery</a></p>
-      </section>
+      <div class="container">
+        <section class="welcome ">
+      	  <h3>Homepage</h3>
+      	  <p>Maldives Princess is a 147-feet liveaboard traversing the crystalline waters of the Maldives. The boat accommodates 9 State Cabins and 2 Ocean View Suite.</p>
+          <p>All rooms have their own A/C, flat screen TV, small refridgerators, ensuite bathrooms and nice and roomy. Besides the suite with it’s king sized bed, the other rooms either have 2 twins or 1 queen bed. The spacious sundeck has a fresh water Jacuzzi for guests to relax and chill out…</p>
+          <p>Maldives – A diver’s paradise. The crystal clear water surrounding Maldives offers very good visibility, making Maldives one of the top diving destinations in the world. The presence of rare species as well as commonly found marine life are another major reason for the popularity of Maldives as a diving destination. <a class="cabin-view" href="http://maldivesprincess.com/gallery/cabin-view/" title="Cabin View">Click here to view our Gallery</a></p>
+        </section>
+      </div>
     </div>
 
   </div>

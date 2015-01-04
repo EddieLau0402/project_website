@@ -37,10 +37,7 @@
   display: block;
 }
 
-#container .content {
-  width: 960px;
-  margin: 20px auto;
-}
+#container .content {margin: 20px auto;}
 #container section {padding: 10px 0;}
 #container section h3 {
   padding-bottom: 8px;
