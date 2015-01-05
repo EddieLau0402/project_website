@@ -130,6 +130,7 @@ footer .footer-content h4 {
 footer .footer-content li {margin-bottom: 8px;}
 footer .footer-content a {color: #195f8e;}
 footer .footer-content a:hover, footer .footer-content a:focus {border-bottom: 2px solid #888276;}
+footer .footer-content .social-profiles {padding-top: 20px;}
 footer .footer-content .social-profiles a {
   width: 32px;
   height: 32px;
@@ -147,6 +148,7 @@ footer .footer-content .social-profiles a {
   -webkit-border-radius: 50%; /* Safari 和 Chrome */
   -o-border-radius: 50%; /* Opera */
 }
+footer .footer-content .social-profiles a:hover, footer .footer-content .social-profiles a:focus {border: none;}
 footer .footer-content .social-profiles div.tooltip[role="tooltip"] .tooltip-inner {background-color: #195f8e;}
 footer .footer-content .social-profiles div.tooltip.top[role="tooltip"] .tooltip-arrow {border-top-color: #195f8e;}
 footer .copyright {
