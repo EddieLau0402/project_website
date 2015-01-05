@@ -17,10 +17,14 @@
   top: 50%;
 }
 #top-banner .carousel-inner {max-height: 600px;}
+#top-banner .carousel-indicators {
+  left: 32%;
+  text-align: left;
+}
 #top-banner .carousel-indicators li {
-  width: 16px; 
-  height: 16px;
-  margin: 0 2px;
+  width: 20px; 
+  height: 20px;
+  margin: 0 4px;
   padding: 2px;
   border: 1px solid #fff;
   background: none;
@@ -31,8 +35,8 @@
   -o-border-radius: 0; /* Opera */
 }
 #top-banner .carousel-indicators li.active span {
-  width: 10px;
-  height: 10px;
+  width: 14px;
+  height: 14px;
   background-color: #195f8e;
   display: block;
 }
@@ -47,5 +51,6 @@
 #container section p {
   margin: 10px 0 20px;
   padding: 0 10px;
+  color: #5c5c5c;
 }
 #container .welcome a.cabin-view {color: #195f8e;}
