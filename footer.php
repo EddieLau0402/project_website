@@ -41,7 +41,6 @@
       </div>
     </div>
   </div>
-
   <!-- Copyright -->
   <div class="copyright">
     <div class="container">

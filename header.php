@@ -7,7 +7,7 @@
 <header>
   <div class="container">
     <!-- Logo -->
-    <div id="logo" class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+    <div id="logo" class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
       <a href="#"></a>
     </div>
 
@@ -25,16 +25,17 @@
         <!-- Nav items -->
         <div class="collapse navbar-collapse" id="main-nav-menu">
           <ul class="nav navbar-nav">
+            <li><a href="index.php?main=about_maldives">About Maldives</a></li>
+            <li><a href="#">About Resorts</a></li>
+            <li><a href="#">Dive The Maldives</a></li>
+            <li><a href="#">Reservation &amp; Booking</a></li>
             <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100">Categories <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100">Contact Us</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">cate-1</a></li>
-                <li><a href="#">cate-2</a></li>
-                <li><a href="#">cate-3</a></li>
+                <li><span class="contact-tel glyphicon glyphicon-phone-alt"></span>+ 960 332 5994</li>
+                <li><a class="contact-email" href="mailto:dive@maldivesafari.com"><span class="glyphicon glyphicon-envelope"></span> dive@maldivesafari.com</a></li>
               </ul>
             </li>
-            <li><a>About Us</a></li>
-            <li><a>Contact Us</a></li>
           </ul>
         </div>
       </div>
