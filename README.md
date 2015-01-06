@@ -8,3 +8,5 @@ project_website
 [ 2015-01-05 09:31 ] --- Delete document 'maldives Information_Island Pearl Holidays.doc' from folder 'asset'.
 
 [ 2015-01-05 12:56 ] --- Modify footer stylesheet.
+
+[ 2015-01-07 05:33 ] --- Create a new page[about_maldives].
