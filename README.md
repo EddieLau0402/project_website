@@ -12,3 +12,5 @@ project_website
 [ 2015-01-07 05:33 ] --- Create a new page[about_maldives].
 
 [ 2015-01-08 00:07 ] --- Modify page "About Maldives", add side-bar in left wrapper. And modify effects of banner in home page and "About Maldives" page.
+
+[ 2015-01-08 01:06 ] --- Added stylesheet to side-bar in left wrapper.
