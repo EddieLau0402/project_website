@@ -95,6 +95,18 @@
 
 #left-column .side-bar {width: 263px;}
 #left-column .side-bar.affix {top: 20px;}
+#left-column .side-bar .nav a {
+  font-size: 18px;
+  color: #888276;
+}
+#left-column .side-bar .nav a:hover, #left-column .side-bar .nav a:focus {
+  background-color: #e3e3e3;
+  color: #195f8e;
+}
+#left-column .side-bar .nav .active a {
+  background-color: #195f8e;
+  color: #e3e3e3;
+}
 
 #container .content {margin: 20px auto;}
 #container section {padding: 10px 0;}
