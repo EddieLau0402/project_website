@@ -1,20 +1,46 @@
 #top-banner {margin: 0 auto;}
 
+#top-banner, #about-maldives-slider {overflow: hidden;}
 #top-banner .carousel-control, #about-maldives-slider .carousel-control {
   width: 40px;
   height: 40px;
   margin: 0 10px;
   padding-top: 10px;
   background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  top: 50%;
   border-radius: 50%;
   -ms-border-radius: 50%; /* IE 9 */
   -moz-border-radius: 50%; /* Firefox 4 */
   -webkit-border-radius: 50%; /* Safari 和 Chrome */
   -o-border-radius: 50%; /* Opera */
-  text-align: center;
-  color: rgba(255, 255, 255, 0.5);
-  /*opacity: 1;*/
-  top: 50%;
+  transition: all 0.2s linear 0s;
+  -ms-transition: all 0.2s linear 0s; /* IE 9 */
+  -moz-transition: all 0.2s linear 0s; /* Firefox 4 */
+  -webkit-transition: all 0.2s linear 0s; /* Safari 和 Chrome */
+  -o-transition: color all 0.2s linear 0s; /* Opera */
+}
+#top-banner .carousel-control.left, #about-maldives-slider .carousel-control.left {
+  transform: translateX(-50px);
+  -ms-transform: translateX(-50px); /* IE 9 */
+  -moz-transform: translateX(-50px); /* Firefox 4 */
+  -webkit-transform: translateX(-50px); /* Safari 和 Chrome */
+  -o-transform: translateX(-50px); /* Opera */
+}
+#top-banner .carousel-control.right, #about-maldives-slider .carousel-control.right {
+  transform: translateX(50px);
+  -ms-transform: translateX(50px); /* IE 9 */
+  -moz-transform: translateX(50px); /* Firefox 4 */
+  -webkit-transform: translateX(50px); /* Safari 和 Chrome */
+  -o-transform: translateX(50px); /* Opera */
+}
+#top-banner:hover .carousel-control, #top-banner:focus .carousel-control, #about-maldives-slider:hover .carousel-control, #about-maldives-slider:focus .carousel-control {
+  transform: translateX(0px);
+  -ms-transform: translateX(0px); /* IE 9 */
+  -moz-transform: translateX(0px); /* Firefox 4 */
+  -webkit-transform: translateX(0px); /* Safari 和 Chrome */
+  -o-transform: translateX(0px); /* Opera */
 }
 #top-banner .carousel-inner {max-height: 600px;}
 #top-banner .carousel-indicators {
@@ -46,6 +72,10 @@
   padding-top: 8px;
   font-size: 14px;
 }
+#about-maldives-slider .carousel-control {
+  /*opacity: 0;*/
+}
+
 #about-maldives-slider .carousel-indicators li {
   padding: 2px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -62,6 +92,9 @@
   -webkit-border-radius: 50%; /* Safari 和 Chrome */
   -o-border-radius: 50%; /* Opera */
 }
+
+#left-column .side-bar {width: 263px;}
+#left-column .side-bar.affix {top: 20px;}
 
 #container .content {margin: 20px auto;}
 #container section {padding: 10px 0;}

@@ -17,8 +17,8 @@ $page = strtolower(trim($_GET['main']));
 switch ($page) {
 	case 'about_maldives':
 		$display = array(
-			'cssFiles' => array('index.css'), 
-			'jsFiles' => array(), 
+			'cssFiles' => array("index.css"), 
+			'jsFiles' => array("about_maldives.js"), 
 			'page' => "about_maldives.php", 
 		);
 		break;

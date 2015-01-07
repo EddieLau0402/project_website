@@ -8,7 +8,7 @@
   <div class="container">
     <!-- Logo -->
     <div id="logo" class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-      <a href="#"></a>
+      <a href="index.php"></a>
     </div>
 
     <!-- Nav-bar -->
