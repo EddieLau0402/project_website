@@ -11,11 +11,19 @@
   <ol class="carousel-indicators">
     <li data-target="#top-banner" data-slide-to="0" class="active"><span></span></li>
     <li data-target="#top-banner" data-slide-to="1" class=""><span></span></li>
+   <!--  <li data-target="#top-banner" data-slide-to="2" class=""><span></span></li>
+    <li data-target="#top-banner" data-slide-to="3" class=""><span></span></li>
+    <li data-target="#top-banner" data-slide-to="4" class=""><span></span></li> -->
   </ol>
   <!-- Banner-images -->
   <div class="carousel-inner" role="listbox">
     <div class="item active"><img src="./asset/img/DSC_5719.jpg" /></div>
     <div class="item"><img src="./asset/img/DSC_5755.jpg" /></div>
+  <!--   <div class="item active"><img src="./asset/img/home_page_banner/banner_1.jpg" /></div>
+    <div class="item"><img src="./asset/img/home_page_banner/banner_2.jpg" /></div>
+    <div class="item"><img src="./asset/img/home_page_banner/banner_3.jpg" /></div>
+    <div class="item"><img src="./asset/img/home_page_banner/banner_4.jpg" /></div>
+    <div class="item"><img src="./asset/img/home_page_banner/banner_5.jpg" /></div> -->
   </div>
   <!-- Controls -->
   <a class="left carousel-control glyphicon glyphicon-chevron-left" href="#top-banner" role="button" data-slide="prev">

@@ -52,10 +52,17 @@
 		  </a>
 		</div>
 
-	    <section>
+	    <section class="row">
 	  	  <h3 id="section-maldives">Maldives</h3>
-	  	  <p>The cluster of islands of the Maldives gives out the picture of a thousand pearl drops speckled across the Indian Ocean. It is an independent nation on its own and each island is self sustained surrounded by blue waters and white sandy beaches. The cluster of islands are grouped into 26 atolls and well known for its very own unique exquisiteness is the capital city male’.</p>
-	  	  <p>The very tempting features or factors that attract tourists to our heavenly islands are the very irresistible blue waters, sun and white sandy beaches. In the Maldives the tourism industry is identical with resort islands and each resort is totally self-contained on a separate island. At the beginning of the tourism industry started in the early 1970s, the facilities provided for the tourists were basic; rooms were furnished with a bed and an essential cooling fan. Local people with no formal training served meals and there were limited recreational facilities beside the sun bathing and swimming. This situation has changed substantially since then, and a diverse range of facilities is now offered at different resorts.</p>
+	      <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+	  	    <p>The cluster of islands of the Maldives gives out the picture of a thousand pearl drops speckled across the Indian Ocean. It is an independent nation on its own and each island is self sustained surrounded by blue waters and white sandy beaches. The cluster of islands are grouped into 26 atolls and well known for its very own unique exquisiteness is the capital city male’.</p>
+	  	    <p>The very tempting features or factors that attract tourists to our heavenly islands are the very irresistible blue waters, sun and white sandy beaches. In the Maldives the tourism industry is identical with resort islands and each resort is totally self-contained on a separate island. At the beginning of the tourism industry started in the early 1970s, the facilities provided for the tourists were basic; rooms were furnished with a bed and an essential cooling fan. Local people with no formal training served meals and there were limited recreational facilities beside the sun bathing and swimming. This situation has changed substantially since then, and a diverse range of facilities is now offered at different resorts.</p>
+	  	  </div>
+	  	  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+	  	  	<div class="thumb">
+	  	  	  <img src="./asset/img/about_maldives_thumb/maldives.jpg" />
+	  	  	</div>
+	  	  </div>
 	  	</section>
 
 	  	<section>

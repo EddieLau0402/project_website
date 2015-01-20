@@ -8,7 +8,7 @@
  html, body, form, fieldset {
   margin: 0; 
   padding: 0; 
-  font: 14px/16px "Open Sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif; 
+  font: 14px/16px "lato",calibri,verdana; 
   color: #777;
 } 
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, input, textarea, p, blockquote, th, td { 
@@ -69,8 +69,9 @@ nav#nav {
   -o-box-shadow: none; /* Opera */
 }
 #main-nav-menu .nav > li > a {
+  padding: 15px 12px;
   border-bottom: 2px solid #f3f0e8;
-  color: #195f8e;
+  color: #946f28;
 }
 #main-nav-menu .nav > li.open > a {
   box-shadow: none;
@@ -87,7 +88,7 @@ nav#nav {
 #main-nav-menu .dropdown-menu a {
   padding: 8px 16px;
   font-size: 18px;
-  color: #195f8e;
+  color: #946f28;
 }
 #main-nav-menu .dropdown-menu span.contact-tel {
   padding: 8px 16px;
@@ -129,7 +130,7 @@ footer .footer-content h4 {
   color: #878276;
 }
 footer .footer-content li {margin-bottom: 8px;}
-footer .footer-content a {color: #195f8e;}
+footer .footer-content a {color: #946f28;}
 footer .footer-content a:hover, footer .footer-content a:focus {border-bottom: 2px solid #888276;}
 footer .footer-content .social-profiles {padding-top: 10px;}
 footer .footer-content .social-profiles a {
@@ -137,7 +138,7 @@ footer .footer-content .social-profiles a {
   height: 32px;
   margin: 0 6px 20px 0;
   padding: 4px;
-  background-color: #195f8e;
+  background-color: #946f28;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
@@ -150,8 +151,8 @@ footer .footer-content .social-profiles a {
   -o-border-radius: 50%; /* Opera */
 }
 footer .footer-content .social-profiles a:hover, footer .footer-content .social-profiles a:focus {border: none;}
-footer .footer-content .social-profiles div.tooltip[role="tooltip"] .tooltip-inner {background-color: #195f8e;}
-footer .footer-content .social-profiles div.tooltip.top[role="tooltip"] .tooltip-arrow {border-top-color: #195f8e;}
+footer .footer-content .social-profiles div.tooltip[role="tooltip"] .tooltip-inner {background-color: #946f28;}
+footer .footer-content .social-profiles div.tooltip.top[role="tooltip"] .tooltip-arrow {border-top-color: #946f28;}
 footer .copyright {
   padding: 10px 0;
   background-color: #474747;

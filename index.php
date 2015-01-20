@@ -22,7 +22,13 @@ switch ($page) {
 			'page' => "about_maldives.php", 
 		);
 		break;
-	
+	case 'about_resorts':
+    $display = array(
+      'cssFiles' => array("index.css"),
+      'jsFiles' => null, 
+      'page' => "about_resorts.php",
+      );
+    break;
 	default: // home page.
 		$display = array(
 			'cssFiles' => array("index.css"), 

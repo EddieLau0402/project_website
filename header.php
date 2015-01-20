@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="main-nav-menu">
           <ul class="nav navbar-nav">
             <li><a href="index.php?main=about_maldives">About Maldives</a></li>
-            <li><a href="#">About Resorts</a></li>
+            <li><a href="index.php?main=about_resorts">About Resorts</a></li>
             <li><a href="#">Dive The Maldives</a></li>
             <li><a href="#">Reservation &amp; Booking</a></li>
             <li>
