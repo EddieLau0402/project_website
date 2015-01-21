@@ -122,7 +122,8 @@
   color: #5c5c5c;
 }
 #container section .thumb img {
-  width: 330px;
+  /*width: 330px;*/
+  max-width: 100%;
   height: auto;
   margin: 20px 0;
 }
