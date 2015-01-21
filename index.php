@@ -25,7 +25,7 @@ switch ($page) {
 	case 'about_resorts':
     $display = array(
       'cssFiles' => array("index.css"),
-      'jsFiles' => null, 
+      'jsFiles' => array("about_resorts.js"), 
       'page' => "about_resorts.php",
       );
     break;

@@ -1,0 +1,160 @@
+/** 
+ * Init stylesheet
+ *
+ * @author
+ */
+
+ /** Init basic stylesheet */
+ html, body, form, fieldset {
+  margin: 0; 
+  padding: 0; 
+  font: 14px/16px "lato",calibri,verdana; 
+  color: #777;
+} 
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, input, textarea, p, blockquote, th, td { 
+  margin:0;
+  padding:0;
+} 
+ol, ul, li {list-style-type: none;} 
+body {background: #fff;}
+form label, a {cursor: pointer;} 
+fieldset, img {border: none;}
+input, textarea, select {outline: none;}
+textarea {resize: none}
+input {
+  background: #fff; 
+  color: #333; 
+  font-size: 12px;
+  line-height: 12px; 
+  line-height: 24px\9; /** For IE */
+}
+a, a:link, a:visited, a:hover, a:active {
+  color: #777;
+  text-decoration: none;
+}
+a:focus, a:hover {
+  background: none;
+  color: #69f; /* RGB: 102,153,255 */
+  cursor: pointer;
+}
+
+
+/** Header stylesheet */
+header {
+  padding: 10px 0;
+  background-color: #f3f0e8;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset;
+  -ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* IE 9 */
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Firefox 4 */
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Safari 和 Chrome */
+  -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Opera */
+}
+#logo a {
+  width: 107px;
+  height: 93px;
+  margin:0 auto;
+  padding: 0;
+  background: url("../img/logo.png") no-repeat 0 0;
+  display: block;
+}
+nav#nav {
+  margin-top: 20px;
+  background: none;
+  border: 0;
+  font-size: 18px;
+  box-shadow: none;
+  -ms-box-shadow: none; /* IE 9 */
+  -moz-box-shadow: none; /* Firefox 4 */
+  -webkit-box-shadow: none; /* Safari 和 Chrome */
+  -o-box-shadow: none; /* Opera */
+}
+#main-nav-menu .nav > li > a {
+  padding: 15px 12px;
+  border-bottom: 2px solid #f3f0e8;
+  color: #195f8e;
+}
+#main-nav-menu .nav > li.open > a {
+  box-shadow: none;
+  -ms-box-shadow: none; /* IE 9 */
+  -moz-box-shadow: none; /* Firefox 4 */
+  -webkit-box-shadow: none; /* Safari 和 Chrome */
+  -o-box-shadow: none; /* Opera */
+}
+#main-nav-menu .nav > li.open > a, #main-nav-menu .nav > li > a:focus, #main-nav-menu .nav > li > a:hover {
+  border-bottom: 2px solid #888276;
+  background: none;
+}
+#main-nav-menu .dropdown-menu {background-color: #e3e3e3;}
+#main-nav-menu .dropdown-menu a {
+  padding: 8px 16px;
+  font-size: 18px;
+  color: #195f8e;
+}
+#main-nav-menu .dropdown-menu span.contact-tel {
+  padding: 8px 16px;
+  display: inline-block;block;
+}
+#main-nav-meun .dropdown-menu a {
+  transition: color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s; /* IE 9 */
+  -moz-transition: color 450ms ease-in-out 0s; /* Firefox 4 */
+  -webkit-transition: color 450ms ease-in-out 0s; /* Safari 和 Chrome */
+  -o-transition: color 450ms ease-in-out 0s; /* Opera */
+}
+#main-nav-menu .dropdown-menu a:hover, #main-nav-menu .dropdown-menu a:focus {
+  background: none;
+  color: #000;
+  transition: color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s; /* IE 9 */
+  -moz-transition: color 450ms ease-in-out 0s; /* Firefox 4 */
+  -webkit-transition: color 450ms ease-in-out 0s; /* Safari 和 Chrome */
+  -o-transition: color 450ms ease-in-out 0s; /* Opera */
+}
+
+/*#container {margin: 10px auto;}*/
+
+/** Footer stylesheet */
+footer {
+  padding-top: 20px;
+  background-color: #f3f0e8;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset;
+  -ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* IE 9 */
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Firefox 4 */
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Safari 和 Chrome */
+  -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) inset; /* Opera */
+}
+footer .footer-content .col-sm-3 {margin-bottom: 30px;}
+footer .footer-content {padding: 20px 0;}
+footer .footer-content h4 {
+  margin-bottom: 14px;
+  color: #878276;
+}
+footer .footer-content li {margin-bottom: 8px;}
+footer .footer-content a {color: #195f8e;}
+footer .footer-content a:hover, footer .footer-content a:focus {border-bottom: 2px solid #888276;}
+footer .footer-content .social-profiles {padding-top: 10px;}
+footer .footer-content .social-profiles a {
+  width: 32px;
+  height: 32px;
+  margin: 0 6px 20px 0;
+  padding: 4px;
+  background-color: #195f8e;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border-radius: 50%;
+  -ms-border-radius: 50%; /* IE 9 */
+  -moz-border-radius: 50%; /* Firefox 4 */
+  -webkit-border-radius: 50%; /* Safari 和 Chrome */
+  -o-border-radius: 50%; /* Opera */
+}
+footer .footer-content .social-profiles a:hover, footer .footer-content .social-profiles a:focus {border: none;}
+footer .footer-content .social-profiles div.tooltip[role="tooltip"] .tooltip-inner {background-color: #195f8e;}
+footer .footer-content .social-profiles div.tooltip.top[role="tooltip"] .tooltip-arrow {border-top-color: #195f8e;}
+footer .copyright {
+  padding: 10px 0;
+  background-color: #474747;
+  text-align: center;
+}

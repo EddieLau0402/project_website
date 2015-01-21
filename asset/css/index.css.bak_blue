@@ -63,7 +63,7 @@
 #top-banner .carousel-indicators li.active span {
   width: 14px;
   height: 14px;
-  background-color: #946f28;
+  background-color: #195f8e;
   display: block;
 }
 #about-maldives-slider .carousel-control {
@@ -101,10 +101,10 @@
 }
 #left-column .side-bar .nav a:hover, #left-column .side-bar .nav a:focus {
   background-color: #e3e3e3;
-  color: #946f28;
+  color: #195f8e;
 }
 #left-column .side-bar .nav .active a {
-  background-color: #946f28;
+  background-color: #195f8e;
   color: #e3e3e3;
 }
 
@@ -113,7 +113,7 @@
 #container section h3 {
   padding-bottom: 8px;
   border-bottom: 2px solid #888276;
-  color: #946f28;
+  color: #195f8e;
 }
 #container section p {
   margin: 10px 0;
@@ -121,15 +121,4 @@
   line-height: 24px;
   color: #5c5c5c;
 }
-#container section .thumb img {
-  width: 330px;
-  height: auto;
-  margin: 20px 0;
-}
-#container section ul {padding: 10px;}
-#container section ul li {
-  margin: 10px;
-  list-style: outside;
-  font-style: italic;
-}
-#container .welcome a.cabin-view {color: #946f28;}
+#container .welcome a.cabin-view {color: #195f8e;}
