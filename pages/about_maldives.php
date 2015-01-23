@@ -26,7 +26,7 @@
       <!-- Main-wrapper -->
       <article id="main-wrapper" class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
         <!-- Slide banner -->
-		<div id="about-maldives-slider" class="carousel slide" data-ride="carousel">
+		<div id="about-maldives-slider" class="carousel slide row" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
 		    <li data-target="#about-maldives-slider" data-slide-to="0" class="active"><span></span></li>
