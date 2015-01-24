@@ -6,8 +6,9 @@
   height: 40px;
   margin: 0 10px;
   padding-top: 10px;
-  background: rgba(0, 0, 0, 0.5);
-  color: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.75);
+  /*background: rgba(148, 111, 40, 0.75);*/
+  color: rgba(255, 255, 255, 0.75);
   text-align: center;
   top: 50%;
   border-radius: 50%;
@@ -43,6 +44,7 @@
   -o-transform: translateX(0px); /* Opera */
 }
 #top-banner .carousel-inner {max-height: 600px;}
+#top-banner .carousel-inner .item img {margin: 0 auto;}
 #top-banner .carousel-indicators {
   left: 32%;
   text-align: left;
@@ -71,9 +73,6 @@
   height: 30px;
   padding-top: 8px;
   font-size: 14px;
-}
-#about-maldives-slider .carousel-control {
-  /*opacity: 0;*/
 }
 
 #about-maldives-slider .carousel-indicators li {
