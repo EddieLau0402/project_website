@@ -69,7 +69,7 @@ nav#nav {
   -o-box-shadow: none; /* Opera */
 }
 #main-nav-menu .nav > li > a {
-  padding: 15px 12px;
+  padding: 15px;
   border-bottom: 2px solid #f3f0e8;
   color: #946f28;
 }

@@ -26,9 +26,12 @@
         <div class="collapse navbar-collapse" id="main-nav-menu">
           <ul class="nav navbar-nav">
             <li><a href="index.php?main=about_maldives">About Maldives</a></li>
-            <li><a href="index.php?main=about_resorts">About Resorts</a></li>
-            <li><a href="#">Dive The Maldives</a></li>
-            <li><a href="#">Reservation &amp; Booking</a></li>
+            <!-- <li><a href="index.php?main=about_resorts">About Resorts</a></li> -->
+            <!-- <li><a href="#">Dive The Maldives</a></li> -->
+            <!-- <li><a href="#">Reservation &amp; Booking</a></li> -->
+            <li><a href="index.php?main=about_us">About Us</a></li>
+            <li><a href="index.php?main=facilities">Facilities</a></li>
+            <li><a href="index.php?main=activities">Activities</a></li>
             <li>
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100">Contact Us</a>
               <ul class="dropdown-menu" role="menu">

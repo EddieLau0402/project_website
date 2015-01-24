@@ -29,6 +29,27 @@ switch ($page) {
                       'page' => "about_resorts.php", 
               ); 
               break;
+       case 'about_us': 
+              $display = array(
+                      'cssFiles' => array("index.css"), 
+                      'jsFiles' => array("about_maldives.js"), 
+                      'page' => "about_us.php", 
+              ); 
+              break;
+       case 'facilities': 
+              $display = array(
+                      'cssFiles' => array("index.css"), 
+                      'jsFiles' => array("about_maldives.js"), 
+                      'page' => "facilities.php", 
+              ); 
+              break;
+       case 'activities': 
+              $display = array(
+                      'cssFiles' => array("index.css"), 
+                      'jsFiles' => array("about_maldives.js"), 
+                      'page' => "activities.php", 
+              ); 
+              break;
 	default: // home page.
 		$display = array(
 			'cssFiles' => array("index.css"), 

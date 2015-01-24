@@ -34,7 +34,7 @@
         </section>
 
         <section>
-          <h3 id="setction-location">LOCATION</h3>
+          <h3 id="section-location">LOCATION</h3>
           <p>Located on the beautiful inhabited island of Dhigurah, South Arit Atoll, Dhigurah. IRIS is a boutique beach hotel with all modern ameneties. Designed for maximum privacy, the hotel is located on the sunrise of the island, and just a few steps away from the white sandy beach.</p>
         </section>
 

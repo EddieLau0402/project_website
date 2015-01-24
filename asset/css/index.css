@@ -1,7 +1,7 @@
 #top-banner {margin: 0 auto;}
 
-#top-banner, #about-maldives-slider {overflow: hidden;}
-#top-banner .carousel-control, #about-maldives-slider .carousel-control {
+#top-banner, #about-us-slider, #about-maldives-slider {overflow: hidden;}
+#top-banner .carousel-control, #about-us-slider .carousel-control, #about-maldives-slider .carousel-control {
   width: 40px;
   height: 40px;
   margin: 0 10px;
@@ -22,21 +22,21 @@
   -webkit-transition: all 0.2s linear 0s; /* Safari 和 Chrome */
   -o-transition: color all 0.2s linear 0s; /* Opera */
 }
-#top-banner .carousel-control.left, #about-maldives-slider .carousel-control.left {
+#top-banner .carousel-control.left, #about-us-slider .carousel-control.left, #about-maldives-slider .carousel-control.left {
   transform: translateX(-50px);
   -ms-transform: translateX(-50px); /* IE 9 */
   -moz-transform: translateX(-50px); /* Firefox 4 */
   -webkit-transform: translateX(-50px); /* Safari 和 Chrome */
   -o-transform: translateX(-50px); /* Opera */
 }
-#top-banner .carousel-control.right, #about-maldives-slider .carousel-control.right {
+#top-banner .carousel-control.right, #about-us-slider .carousel-control.right, #about-maldives-slider .carousel-control.right {
   transform: translateX(50px);
   -ms-transform: translateX(50px); /* IE 9 */
   -moz-transform: translateX(50px); /* Firefox 4 */
   -webkit-transform: translateX(50px); /* Safari 和 Chrome */
   -o-transform: translateX(50px); /* Opera */
 }
-#top-banner:hover .carousel-control, #top-banner:focus .carousel-control, #about-maldives-slider:hover .carousel-control, #about-maldives-slider:focus .carousel-control {
+#top-banner:hover .carousel-control, #top-banner:focus .carousel-control, #about-us-slider:hover .carousel-control, #about-us-slider:focus .carousel-control, #about-maldives-slider:hover .carousel-control, #about-maldives-slider:focus .carousel-control {
   transform: translateX(0px);
   -ms-transform: translateX(0px); /* IE 9 */
   -moz-transform: translateX(0px); /* Firefox 4 */
@@ -68,19 +68,19 @@
   background-color: #946f28;
   display: block;
 }
-#about-maldives-slider .carousel-control {
+#about-us-slider .carousel-control, #about-maldives-slider .carousel-control {
   width: 30px;
   height: 30px;
   padding-top: 8px;
   font-size: 14px;
 }
 
-#about-maldives-slider .carousel-indicators li {
+#about-us-slider .carousel-indicators li, #about-maldives-slider .carousel-indicators li {
   padding: 2px;
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
 }
-#about-maldives-slider .carousel-indicators li.active span {
+#about-us-slider .carousel-indicators li.active span, #about-maldives-slider .carousel-indicators li.active span {
   width: 8px;
   height: 8px;
   background-color: rgba(255, 255, 255, 0.2);
