@@ -133,3 +133,17 @@
   font-style: italic;
 }
 #container .welcome a.cabin-view {color: #946f28;}
+
+/* Activities */
+#activities-slider, #activities-carousel {margin-bottom: 10px;}
+#activities-carousel .slides li {margin: 0 3px;}
+
+/* Facilities */
+#facilities-slider {padding: 60px 0;}
+.dinning-img-area {
+  width: 100%;
+  height: 300px;
+  margin: 10px auto;
+  background: url("./../img/dinning.jpg") no-repeat 0 -300px;
+  display: block;
+}

@@ -18,38 +18,38 @@ switch ($page) {
 	case 'about_maldives':
 		$display = array(
 			'cssFiles' => array("index.css"), 
-			'jsFiles' => array("about_maldives.js"), 
+			'jsFiles' => array("module-left-nav.js"), 
 			'page' => "about_maldives.php", 
 		);
 		break;
 	case 'about_resorts': 
-              $display = array(
-                      'cssFiles' => array("index.css"), 
-                      'jsFiles' => array("about_resorts.js"), 
-                      'page' => "about_resorts.php", 
-              ); 
-              break;
-       case 'about_us': 
-              $display = array(
-                      'cssFiles' => array("index.css"), 
-                      'jsFiles' => array("about_maldives.js"), 
-                      'page' => "about_us.php", 
-              ); 
-              break;
-       case 'facilities': 
-              $display = array(
-                      'cssFiles' => array("index.css"), 
-                      'jsFiles' => array("about_maldives.js"), 
-                      'page' => "facilities.php", 
-              ); 
-              break;
-       case 'activities': 
-              $display = array(
-                      'cssFiles' => array("index.css"), 
-                      'jsFiles' => array("about_maldives.js"), 
-                      'page' => "activities.php", 
-              ); 
-              break;
+    $display = array(
+      'cssFiles' => array("index.css"), 
+      'jsFiles' => array("module-left-nav.js"), 
+      'page' => "about_resorts.php", 
+    ); 
+    break;
+  case 'about_us': 
+    $display = array(
+      'cssFiles' => array("index.css"), 
+      'jsFiles' => array("module-left-nav.js"), 
+      'page' => "about_us.php", 
+    ); 
+    break;
+  case 'facilities': 
+    $display = array(
+      'cssFiles' => array("index.css"), 
+      'jsFiles' => array(), 
+      'page' => "facilities.php", 
+    ); 
+    break;
+  case 'activities': 
+    $display = array(
+      'cssFiles' => array("index.css", "flexslider.css"), 
+      'jsFiles' => array("jquery.flexslider-min.js", "activities.js"), 
+      'page' => "activities.php", 
+    ); 
+    break;
 	default: // home page.
 		$display = array(
 			'cssFiles' => array("index.css"), 
@@ -132,8 +132,8 @@ if (isset($display['cssFiles']) && !empty($display['cssFiles']))
 
   <?php 
   if (isset($display['jsFiles']) && !empty($display['jsFiles'])) 
-	foreach ($display['jsFiles'] as $jsFile) 
-		echo "<script src=\"" . JS_PATH . "/{$jsFile}\"></script>\n"; 
+    foreach ($display['jsFiles'] as $jsFile) 
+      echo "<script src=\"" . JS_PATH . "/{$jsFile}\"></script>\n"; 
   ?>
 
 </body>
